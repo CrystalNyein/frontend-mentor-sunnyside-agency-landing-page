@@ -38,6 +38,8 @@
 @media only screen and (max-width: 770px) {
   .NavBar {
     position: relative;
+    width: 90vw;
+    margin: 0 auto;
   }
   .nav-icon-mobile {
     display: block;
