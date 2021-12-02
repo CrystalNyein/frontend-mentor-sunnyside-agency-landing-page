@@ -17,7 +17,7 @@
   display: inline;
   color: white;
   margin-left: 2.5rem;
-  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
 }
 .nav-link:hover {
