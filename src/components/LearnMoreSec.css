@@ -1,6 +1,7 @@
 .LearnMoreSec {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .LearnMoreSec > div {
   width: 50%;
@@ -9,7 +10,7 @@
   order: 1;
 }
 .learn-more-text {
-  padding: 4rem 7.5rem;
+  padding: 4vw 8.9vw;
 }
 .title {
   margin: 2rem 0;
@@ -45,4 +46,20 @@
 }
 .btn:hover hr {
   opacity: 1;
+}
+.learn-more-img {
+  background-position: center;
+}
+@media only screen and (max-width: 770px) {
+  .LearnMoreSec > div {
+    width: 100%;
+  }
+  .learn-more-text {
+    padding: 2rem;
+    text-align: center;
+  }
+  .learn-more-img {
+    min-height: 22rem;
+    order: -1;
+  }
 }
