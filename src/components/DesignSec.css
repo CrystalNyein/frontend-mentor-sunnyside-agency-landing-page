@@ -1,0 +1,22 @@
+.DesignSec {
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 8.9vw;
+  position: relative;
+}
+.design-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.design-text .title {
+  font-size: 1.3rem;
+}
+.design-text p {
+  font-size: 1rem;
+}

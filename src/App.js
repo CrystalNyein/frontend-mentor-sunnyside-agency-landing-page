@@ -3,6 +3,9 @@ import HeroSec from "./components/HeroSec";
 import LearnMoreSec from "./components/LearnMoreSec";
 import egg from "./assets/images/desktop/image-transform.jpg";
 import standOut from "./assets/images/desktop/image-stand-out.jpg";
+import graphicDesign from "./assets/images/desktop/image-graphic-design.jpg";
+import photography from "./assets/images/desktop/image-photography.jpg";
+import DesignSec from "./components/DesignSec";
 
 let data = [
   {
@@ -18,6 +21,18 @@ let data = [
     sequence: "text-2",
     src: standOut,
     color: "hsl(7, 99%, 70%)",
+  },
+  {
+    title: "Graphic Design",
+    para: "Great design makes you memorable. We deliver artwork that underscores your brand message and capture potential clients' attention.",
+    src: graphicDesign,
+    color: "hsl(167, 40%, 24%)",
+  },
+  {
+    title: "Photography",
+    para: "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+    src: photography,
+    color: "hsl(198, 62%, 26%)",
   },
 ];
 
@@ -39,6 +54,21 @@ function App() {
         src={data[1].src}
         color={data[1].color}
       />
+      <div className="design-section">
+        <DesignSec
+          title={data[2].title}
+          para={data[2].para}
+          src={data[2].src}
+          color={data[2].color}
+        />
+
+        <DesignSec
+          title={data[3].title}
+          para={data[3].para}
+          src={data[3].src}
+          color={data[3].color}
+        />
+      </div>
     </div>
   );
 }
