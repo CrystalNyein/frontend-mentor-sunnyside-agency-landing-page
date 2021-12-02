@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/logo.svg";
 import facebook from "../assets/images/icon-facebook.svg";
 import insta from "../assets/images/icon-instagram.svg";
 import twitter from "../assets/images/icon-twitter.svg";
@@ -23,16 +22,16 @@ const FooterSec = () => {
       </ul>
       <ul className="footer-social">
         <li>
-          <img src={facebook} />
+          <img src={facebook} alt="Facebook" />
         </li>
         <li>
-          <img src={insta} />
+          <img src={insta} alt="Instagram" />
         </li>
         <li>
-          <img src={twitter} />
+          <img src={twitter} alt="Twitter" />
         </li>
         <li>
-          <img src={pinterest} />
+          <img src={pinterest} alt="Pinterest" />
         </li>
       </ul>
     </div>

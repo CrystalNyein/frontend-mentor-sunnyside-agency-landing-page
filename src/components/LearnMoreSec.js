@@ -11,7 +11,6 @@ const LearnMoreSec = (props) => {
           Learn More<hr style={{ backgroundColor: props.color }}></hr>
         </button>
       </div>
-      {console.log(props.src)}
       <div
         className="learn-more-img"
         style={{ backgroundImage: "url(" + props.src + ")" }}

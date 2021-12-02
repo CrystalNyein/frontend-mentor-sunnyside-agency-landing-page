@@ -11,6 +11,7 @@
   list-style: none;
   display: inline-block;
   color: hsl(169, 48%, 28%);
+  cursor: pointer;
 }
 .footer-nav li {
   margin: 1.5rem;
@@ -19,4 +20,7 @@
 
 .footer-social li {
   margin: 1rem;
+}
+.FooterSec li:hover {
+  opacity: 0.8;
 }

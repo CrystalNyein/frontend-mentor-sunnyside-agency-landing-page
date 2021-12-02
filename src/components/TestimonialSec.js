@@ -30,7 +30,7 @@ const TestimonialSec = () => {
         />
 
         <Testimonial
-          src={emily}
+          src={jennie}
           name="Jennie F."
           position="Business Owner"
           para={para[2]}
