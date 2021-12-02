@@ -1,0 +1,33 @@
+.LearnMoreSec {
+  display: flex;
+  flex-direction: row;
+}
+.LearnMoreSec > div {
+  width: 50%;
+}
+.learn-more-text.text-2 {
+  order: 1;
+}
+.learn-more-text {
+  padding: 4rem 7.5rem;
+}
+.title {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+}
+.learn-more-text p {
+  color: hsl(232, 10%, 55%);
+  margin-bottom: 2rem;
+}
+.btn {
+  margin-bottom: 1.5rem;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+}
