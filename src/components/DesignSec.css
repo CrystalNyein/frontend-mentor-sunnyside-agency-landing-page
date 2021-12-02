@@ -1,22 +1,30 @@
 .DesignSec {
   width: 50%;
-  height: 60vh;
   background-size: cover;
-  background-position: 0% 50%;
+  background-position: top 25% left 50%;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 8.9vw;
-  position: relative;
 }
 .design-text {
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
+  padding: 35vh 8vw 2rem;
 }
 .design-text .title {
   font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 .design-text p {
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+@media only screen and (max-width: 770px) {
+  .DesignSec {
+    width: calc(100% + 4rem);
+    padding: 2rem;
+    background-position: top center;
+  }
+  .design-text {
+    padding: 45vw 0 0;
+  }
+  .design-text .title {
+    margin-top: 1rem;
+  }
 }
