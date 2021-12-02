@@ -6,6 +6,8 @@ import standOut from "./assets/images/desktop/image-stand-out.jpg";
 import graphicDesign from "./assets/images/desktop/image-graphic-design.jpg";
 import photography from "./assets/images/desktop/image-photography.jpg";
 import DesignSec from "./components/DesignSec";
+import Testimonial from "./components/Testimonial";
+import TestimonialSec from "./components/TestimonialSec";
 
 let data = [
   {
@@ -69,6 +71,7 @@ function App() {
           color={data[3].color}
         />
       </div>
+      <TestimonialSec />
     </div>
   );
 }

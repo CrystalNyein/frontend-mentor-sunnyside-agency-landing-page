@@ -1,0 +1,21 @@
+.Testimonial {
+  margin-bottom: 5rem;
+}
+.Testimonial img {
+  border-radius: 50%;
+  width: 3.5rem;
+}
+.Testimonial > p {
+  color: hsl(213, 9%, 39%);
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.name .main {
+  margin-bottom: 0.7rem;
+}
+.name .sub {
+  color: hsl(210, 4%, 67%);
+  margin-top: 0;
+  font-size: 0.85rem;
+}
