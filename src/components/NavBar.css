@@ -1,0 +1,37 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo > img {
+  width: 8rem;
+}
+.nav-icon-mobile {
+  display: none;
+}
+.nav-group {
+  margin: 0;
+}
+.nav-link {
+  display: inline;
+  color: white;
+  margin-left: 2.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.nav-link:hover {
+  opacity: 0.8;
+}
+.nav-link:last-child {
+  text-transform: uppercase;
+  padding: 0.8rem 1.8rem;
+  color: black;
+  background-color: white;
+  border-radius: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover:last-child {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
