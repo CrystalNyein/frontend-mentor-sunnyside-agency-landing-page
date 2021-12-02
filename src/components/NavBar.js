@@ -11,12 +11,14 @@ class NavBar extends Component {
         </div>
         <div className="nav">
           <i className="fas fa-hamburger nav-icon-mobile"></i>
-          <ul className="nav-group">
-            <li className="nav-link barlow-font">About</li>
-            <li className="nav-link barlow-font">Services</li>
-            <li className="nav-link barlow-font">Projects</li>
-            <li className="nav-link barlow-font">Contact</li>
-          </ul>
+          <div className="nav-group">
+            <ul>
+              <li className="nav-link barlow-font">About</li>
+              <li className="nav-link barlow-font">Services</li>
+              <li className="nav-link barlow-font">Projects</li>
+              <li className="nav-link fraunces-font">Contact</li>
+            </ul>
+          </div>
         </div>
       </div>
     );
