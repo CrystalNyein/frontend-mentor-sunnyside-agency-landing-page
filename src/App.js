@@ -8,6 +8,7 @@ import photography from "./assets/images/desktop/image-photography.jpg";
 import DesignSec from "./components/DesignSec";
 import Testimonial from "./components/Testimonial";
 import TestimonialSec from "./components/TestimonialSec";
+import ImageSec from "./components/ImageSec";
 
 let data = [
   {
@@ -72,6 +73,7 @@ function App() {
         />
       </div>
       <TestimonialSec />
+      <ImageSec />
     </div>
   );
 }
