@@ -7,11 +7,8 @@ const LearnMoreSec = (props) => {
       <div className={props.sequence + " learn-more-text "}>
         <h2 className="title fraunces-font">{props.title}</h2>
         <p className="barlow-font">{props.para}</p>
-        <button
-          className="btn fraunces-font"
-          style={{ textDecorationColor: props.color }}
-        >
-          Learn More
+        <button className="btn fraunces-font">
+          Learn More<hr style={{ backgroundColor: props.color }}></hr>
         </button>
       </div>
       <div
