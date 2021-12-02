@@ -9,6 +9,7 @@ import DesignSec from "./components/DesignSec";
 import Testimonial from "./components/Testimonial";
 import TestimonialSec from "./components/TestimonialSec";
 import ImageSec from "./components/ImageSec";
+import FooterSec from "./components/FooterSec";
 
 let data = [
   {
@@ -74,6 +75,7 @@ function App() {
       </div>
       <TestimonialSec />
       <ImageSec />
+      <FooterSec />
     </div>
   );
 }

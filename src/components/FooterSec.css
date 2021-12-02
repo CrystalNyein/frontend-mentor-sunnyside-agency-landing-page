@@ -1,0 +1,22 @@
+.FooterSec {
+  background-color: hsl(169, 44%, 70%);
+  text-align: center;
+  padding: 3rem 0;
+}
+.FooterSec ul {
+  margin: 0;
+  padding: 0;
+}
+.FooterSec li {
+  list-style: none;
+  display: inline-block;
+  color: hsl(169, 48%, 28%);
+}
+.footer-nav li {
+  margin: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-social li {
+  margin: 1rem;
+}
