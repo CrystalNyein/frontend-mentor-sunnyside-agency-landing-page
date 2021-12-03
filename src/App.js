@@ -41,7 +41,7 @@ let data = [
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
       <HeroSec />
       <LearnMoreSec
         title={data[0].title}
@@ -75,7 +75,7 @@ function App() {
       <TestimonialSec />
       <ImageSec />
       <FooterSec />
-    </main>
+    </div>
   );
 }
 
