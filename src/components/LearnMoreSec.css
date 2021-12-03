@@ -21,7 +21,6 @@
   margin-bottom: 2rem;
 }
 .btn {
-  margin-bottom: 1.5rem;
   outline: none;
   background-color: transparent;
   border: none;
@@ -31,12 +30,12 @@
   letter-spacing: 0.1rem;
   position: relative;
   z-index: 1;
+  display: block;
 }
-.btn hr {
-  position: absolute;
-  bottom: -0.6rem;
-  left: 0;
-  width: 100%;
+hr {
+  margin-top: -1rem;
+  display: inline-block;
+  width: 8.3rem;
   height: 0.5rem;
   border: none;
   opacity: 0.3;
@@ -44,7 +43,7 @@
   transition: all 0.2s ease-in-out;
   z-index: -1;
 }
-.btn:hover hr {
+.btn:hover ~ hr {
   opacity: 1;
 }
 .learn-more-img {
