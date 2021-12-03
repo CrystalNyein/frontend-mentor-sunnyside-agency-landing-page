@@ -6,7 +6,7 @@ import arrow from "../assets/images/icon-arrow-down.svg";
 class HeroSec extends Component {
   render() {
     return (
-      <div className="HeroSec">
+      <div className="HeroSec" role="banner">
         <NavBar />
         <h1 className="hero-text fraunces-font">We are creatives</h1>
         <img className="arrow" src={arrow} alt="" />

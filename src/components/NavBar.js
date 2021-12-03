@@ -30,7 +30,7 @@ const NavBar = () => {
     };
   });
   return (
-    <div className="NavBar">
+    <div className="NavBar" role="navigation">
       <div className="nav-logo">
         <img src={logo} alt="Sunnyside Logo"></img>
       </div>

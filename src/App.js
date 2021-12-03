@@ -43,37 +43,39 @@ function App() {
   return (
     <div className="App">
       <HeroSec />
-      <LearnMoreSec
-        title={data[0].title}
-        para={data[0].para}
-        sequence={data[0].sequence}
-        src={data[0].src}
-        color={data[0].color}
-      />
-      <LearnMoreSec
-        title={data[1].title}
-        para={data[1].para}
-        sequence={data[1].sequence}
-        src={data[1].src}
-        color={data[1].color}
-      />
-      <div className="design-section">
-        <DesignSec
-          title={data[2].title}
-          para={data[2].para}
-          src={data[2].src}
-          color={data[2].color}
+      <main>
+        <LearnMoreSec
+          title={data[0].title}
+          para={data[0].para}
+          sequence={data[0].sequence}
+          src={data[0].src}
+          color={data[0].color}
         />
+        <LearnMoreSec
+          title={data[1].title}
+          para={data[1].para}
+          sequence={data[1].sequence}
+          src={data[1].src}
+          color={data[1].color}
+        />
+        <div className="design-section">
+          <DesignSec
+            title={data[2].title}
+            para={data[2].para}
+            src={data[2].src}
+            color={data[2].color}
+          />
 
-        <DesignSec
-          title={data[3].title}
-          para={data[3].para}
-          src={data[3].src}
-          color={data[3].color}
-        />
-      </div>
-      <TestimonialSec />
-      <ImageSec />
+          <DesignSec
+            title={data[3].title}
+            para={data[3].para}
+            src={data[3].src}
+            color={data[3].color}
+          />
+        </div>
+        <TestimonialSec />
+        <ImageSec />
+      </main>
       <FooterSec />
     </div>
   );
